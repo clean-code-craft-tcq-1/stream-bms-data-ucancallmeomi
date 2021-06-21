@@ -1,14 +1,11 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Sender_BMS
 {
     public class GenerateParemeters: IInputStreamer
-    {
-        
+    { 
+
         public double StreamTemperatureReadings()
         {
             return GenerateRandomNumber(BatteryParameterLimits.minimumTemperature, BatteryParameterLimits.maximumTemperature);

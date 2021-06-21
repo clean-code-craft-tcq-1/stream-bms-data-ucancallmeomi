@@ -6,7 +6,7 @@ namespace Sender_BMS
 {
     public interface IInputStreamer
     {
-        public int StreamTemperatureReadings();
-        public double StreamSOCReadings();
+         double StreamTemperatureReadings();
+         double StreamSOCReadings();
     }
 }

@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Sender_BMS
 {
-    public class BatteryParameterLimits
+    public static class BatteryParameterLimits
     {
-        public  double minimumTemperature = 40;
-        public  double maximumTemperature = 0;
-        public  double minimumChargeRate = 80;
-        public  double maximumChargeRate = 20;
+        public static double minimumTemperature = 40;
+        public static double maximumTemperature = 0;
+        public static double minimumChargeRate = 80;
+        public static double maximumChargeRate = 20;
     }
 }

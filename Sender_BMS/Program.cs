@@ -1,17 +1,14 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
+using System.Threading;
 
 namespace Sender_BMS
 {
     public class Program
     {
+        private static bool cancelStream = false;
+
         public static void Main(string[] args)
         {
-			public static bool cancelStream = false;
-            
             Console.WriteLine("Battery parameters streaming has started. Press Ctrl-C to stop streaming");
             Console.CancelKeyPress += (sender, eventArgs) =>
             {
@@ -21,9 +18,10 @@ namespace Sender_BMS
             };
 
             StreamBatteryParameters();
+
         }
-		
-		public static void StreamBatteryParameters()
+
+        public static void StreamBatteryParameters()
         {
             IInputStreamer streamInput = new GenerateParemeters();
             BatteryDataReadings batteryDataReadings = new BatteryDataReadings(streamInput);
@@ -33,5 +31,7 @@ namespace Sender_BMS
                 Thread.Sleep(1000);
             }
         }
+
+
     }
 }

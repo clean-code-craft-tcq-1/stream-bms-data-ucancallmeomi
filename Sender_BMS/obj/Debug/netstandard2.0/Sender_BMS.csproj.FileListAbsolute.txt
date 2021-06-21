@@ -1,0 +1,9 @@
+E:\TCQ_Foundation\StreamBMS\stream-bms-data-ucancallmeomi\Sender_BMS\obj\Debug\netstandard2.0\Sender_BMS.csproj.AssemblyReference.cache
+E:\TCQ_Foundation\StreamBMS\stream-bms-data-ucancallmeomi\Sender_BMS\obj\Debug\netstandard2.0\Sender_BMS.AssemblyInfoInputs.cache
+E:\TCQ_Foundation\StreamBMS\stream-bms-data-ucancallmeomi\Sender_BMS\obj\Debug\netstandard2.0\Sender_BMS.AssemblyInfo.cs
+E:\TCQ_Foundation\StreamBMS\stream-bms-data-ucancallmeomi\Sender_BMS\obj\Debug\netstandard2.0\Sender_BMS.csproj.CoreCompileInputs.cache
+E:\TCQ_Foundation\StreamBMS\stream-bms-data-ucancallmeomi\Sender_BMS\bin\Debug\netstandard2.0\Sender_BMS.deps.json
+E:\TCQ_Foundation\StreamBMS\stream-bms-data-ucancallmeomi\Sender_BMS\bin\Debug\netstandard2.0\Sender_BMS.dll
+E:\TCQ_Foundation\StreamBMS\stream-bms-data-ucancallmeomi\Sender_BMS\bin\Debug\netstandard2.0\Sender_BMS.pdb
+E:\TCQ_Foundation\StreamBMS\stream-bms-data-ucancallmeomi\Sender_BMS\obj\Debug\netstandard2.0\Sender_BMS.dll
+E:\TCQ_Foundation\StreamBMS\stream-bms-data-ucancallmeomi\Sender_BMS\obj\Debug\netstandard2.0\Sender_BMS.pdb

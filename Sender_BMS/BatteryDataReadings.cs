@@ -9,7 +9,7 @@ namespace Sender_BMS
     public class BatteryDataReadings
     {
         private readonly IInputStreamer batteryStreamingInput;
-        public BatteryDataStreaming(IInputStreamer _streamingInput)
+        public BatteryDataReadings(IInputStreamer _streamingInput)
         {
             batteryStreamingInput = _streamingInput;
         }
